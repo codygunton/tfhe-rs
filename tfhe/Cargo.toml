@@ -194,7 +194,7 @@ required-features = ["boolean"]
 
 [[example]]
 name = "secp256k1_signature"
-required-features = ["boolean"]
+required-features = ["boolean", "shortint", "integer"]
 
 [lib]
 crate-type = ["lib", "staticlib", "cdylib"]

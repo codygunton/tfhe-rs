@@ -192,5 +192,9 @@ required-features = ["shortint", "internal-keycache"]
 name = "micro_bench_and"
 required-features = ["boolean"]
 
+[[example]]
+name = "secp256k1_signature"
+required-features = ["boolean"]
+
 [lib]
 crate-type = ["lib", "staticlib", "cdylib"]
